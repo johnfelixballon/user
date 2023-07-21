@@ -1,0 +1,102 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: poppins, arial;
+  background-color: rgb(22, 31, 35);
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer-left-side{
+  text-align: left;
+  margin-right: 100px;
+}
+.footer-logo {
+  height: 250px;
+}
+.footer-left-side-text{
+  text-align: left;
+}
+.footer-left-side h1{
+  color: white;
+  font-size: 60px;
+  margin-top: -30px;
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+.footer-left-side p{
+  color: white;
+  font-size: 14px;
+  font-weight: bolder;
+  line-height: 16px;
+  margin-top: -18px;
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+.footer-middle-side{
+  display: flex;
+  flex-direction: column;
+}
+.footer-middle-side-first-p{
+  color: gray;
+  font-size: 22px;
+}
+.footer-middle-side h3{
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 36px;
+  font-weight: bolder;
+}
+.footer-social-logos{
+  display: flex;
+  flex-direction: row;
+}
+.footer-social-logos img{
+  height: 36px;
+  margin-top: 10px;
+  margin-right: 16px;
+}
+.footer-middle-side-second-p{
+  width: 90%;
+  color: gray;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 40px;
+}
+.extra-option{
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: solid 1px white;
+}
+.extra-option a{
+  font-size: 12px;
+  margin-right: 10px;
+  color: gray;
+  text-decoration: none;
+}
+.footer-right-side{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.footer-right-side a{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: right;
+  line-height: 50px;
+  color: white;
+  text-decoration: none;
+}
+.footer-donate-button{
+  font-size: 30px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(113, 207, 235);
+  color: white;
+  margin-top: 50px;
+  padding: 10px 50px;
+}

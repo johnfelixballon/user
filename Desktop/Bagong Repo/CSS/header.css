@@ -1,0 +1,130 @@
+.nav-bar{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: poppins, arial;
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+  padding-bottom: 0;
+  z-index: 9999;
+}
+.nav-bar-left-side{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.nav-bar-logo{
+  margin-right: 10px;
+}
+.nav-bar-image{
+  height: 70px;
+}
+.text-logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 40px;
+  margin-top: -26px;
+}
+.text-logo a{
+  color: rgb(40, 151, 191);
+  text-decoration: none;
+}
+.text-logo h1{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+}
+.text-logo p{
+  font-size: 6.5px;
+  margin-bottom: 0;
+  margin-top: -16px;
+}
+.middle-right-side{
+  display: flex;
+  flex-direction: row;
+}
+.nav-bar-middle-side{
+  align-items: center;
+  padding-top: 8px;
+}
+.nav-bar-middle-side ul{
+  list-style-type: none;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+ul li ul.dropdown-about li{
+  background-color: rgba(255, 255, 255, 0.7);
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  margin-left: -10px;
+  display: block;
+  border-bottom: 1px solid black;
+}
+ul li ul.dropdown-about li a{
+  font-size: 12px;
+}
+ul li ul.dropdown-about {
+  width: 50%;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+ul li a:hover{
+  color: rgb(27, 101, 128);
+  transition: .3s;
+}
+ul li:hover ul.dropdown-about{
+  display: block;
+}
+.nav-bar-middle-side a{
+  margin-right: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+}
+.nav-bar-right-side{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+.nav-bar-right-side a{
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+  margin-right: 10px;
+}
+.nav-bar-right-side .updates:hover{
+  color: rgb(27, 101, 128);
+}
+.donate-button{
+  background-color: transparent;
+  text-align: center;
+  padding: 10px 50px;
+  border: 1.5px solid blue;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+.search-image{
+  height: 22px;
+  cursor: pointer;
+}
